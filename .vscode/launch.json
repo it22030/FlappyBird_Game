@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Flappy Bird",
+            "request": "launch",
+            "mainClass": "Application.Main",
+            "projectName": "FLAPPY_GAME",
+            "vmArgs": "--module-path \"D:/openjfx-23.0.2_windows-x64_bin-sdk/javafx-sdk-23.0.2/lib\" --add-modules javafx.controls,javafx.fxml",
+            "classPaths": [
+                "${workspaceFolder}/out/production/FLAPPY_GAME",
+                "${workspaceFolder}/lib/mysql-connector-j.jar"
+            ]
+        }
+    ]
+}
